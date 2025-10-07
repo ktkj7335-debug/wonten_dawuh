@@ -1,25 +1,32 @@
 body {
-  background-color: #FFFFEO; /* Warna kuning cerah */
-  font-family: Arial, sans-serif; /*Jenis huruf yang bersih dan mudah dibaca */
-  color: #191970; /* Warmath teks utama (Biru Gelap) */
+    /* Perbaikan: Kode warna yang valid. #FFFFEO seharusnya #FFFFE0. */
+    background-color: #FFFFE0; /* Warna kuning cerah (Light Yellow) */
+    font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+    /* Perbaikan: "Warmath" seharusnya "Warna". */
+    color: #191970; /* Warna teks utama (Midnight Blue/Biru Gelap) */
 }
-  
-.kartu-profil {
-  width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah,auto menengahkan kiri/kanan */
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkunh */
-  box-shadow: 0 4px 8px rgba (0,0,0,0.1); /* Efek bayangan */
-  text-align: center; /* menengahkan semua teks di dalam kartu */
-}
-|
 
-.kartu-profil img {
-  width: 150px;
-  border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+.kartu-profil {
+    width: 300px;
+    /* Menengahkan kartu secara horizontal dan memberikan margin atas/bawah */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    /* Membuat sudut menjadi melengkung */
+    border-radius: 15px; 
+    /* Perbaikan: Spasi tidak perlu di rgba(0,0,0,0.1) dan pastikan penutup kurung siku terakhir tidak ada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    /* text-align: center; sudah benar */
+    text-align: center; /* Menengahkan semua konten inline di dalam kartu */
 }
+
+/* Perbaikan: Blok kode .kartu-profil img yang diulang dihapus. 
+   text-align: center; untuk menengahkan konten kartu (termasuk img) 
+   sudah diatur pada .kartu-profil di atas. */
 .kartu-profil img {
-  /* ... (kode dari slide sebelumnya) ... */
-text-align: center; /* Menengahkan semua teks di dalam kartu /
+    width: 150px;
+    /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+    border-radius: 50%; 
+    /* Memberikan margin bawah agar ada sedikit jarak dengan teks di bawahnya */
+    margin-bottom: 15px; 
 }
