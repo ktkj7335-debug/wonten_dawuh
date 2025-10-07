@@ -1,6 +1,7 @@
 body {
-  background-color: #FFFFEO; /* Warna Ungu Gelap */font-family: Arial, sans-serif; /*Jenis huruf yang bersih dan mudah dibaca */
-  color: #191970; /* Warmath teks utama (Biru Gelap) /*
+  background-color: #FFFFEO; /* Warna kuning cerah */
+  font-family: Arial, sans-serif; /*Jenis huruf yang bersih dan mudah dibaca */
+  color: #191970; /* Warmath teks utama (Biru Gelap) */
 }
   
 .kartu-profil {
@@ -18,7 +19,7 @@ body {
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
-.kartu-profil {
+.kartu-profil img {
   /* ... (kode dari slide sebelumnya) ... */
 text-align: center; /* Menengahkan semua teks di dalam kartu /
 }
